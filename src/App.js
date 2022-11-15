@@ -20,8 +20,8 @@ function App() {
             {images.map((img, i) => {
               return(
                 <Adventure
-                  id={i.id}
-                  cardImg={img.cardImg}
+                  id={i}
+                  cardImg={img}
                 />
               )
             })}
