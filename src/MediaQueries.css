@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-container {
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .fa-bars {
+        display: block;
+        cursor: pointer;
+    }
+    .left-nav {
+        display: flex;
+    }
+    .house {
+        width: 30px;
+        height: 30px;
+    }
+    .logo-name {
+        width: 110px;
+        height: 30px;
+    }
+    .middle-nav, .right-nav {
+        display: none;
+    }
+
+    .hero-container {
+        display: inline-block;
+    }
+    .left-hero {
+        margin-top: -80px;
+    }
+    .left-hero h1, .left-hero p {
+        text-align: center;
+    }
+    .right-hero {
+        display:inline-block;
+        margin-left: 70px;
+        margin-top: -20px;
+    }
+    .left-box, .right-box {
+        display: block;
+    }
+    .nft-links img {
+        width: 150px;
+    }
+}
