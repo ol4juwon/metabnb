@@ -21,7 +21,7 @@ function App() {
               return(
                 <Adventure
                   id={i}
-                  cardImg={img}
+                  cardImg={img.cardImg}
                 />
               )
             })}
